@@ -1,0 +1,17 @@
+house specification
+  S = normpdf([0:256], 102, 20);
+  S = (S + normpdf([0:256], 205, 0.5));
+  S = (S + normpdf([0:256], 68, 30));
+  S = S ./ 3;
+
+cameraman specification
+  S = normpdf([0:256], 160, 20);
+  S = (S + normpdf([0:256], 10, 10));
+  S = S ./ 2;
+
+jetplane specification
+  S = normpdf([0:256], 190, 30);
+
+lena specification
+  S = normpdf([0:256], 144, 45);
+

@@ -1,0 +1,2 @@
+I = imsmooth(I, 'Average', [5, 5]);
+I = myRoberts(I, 10);

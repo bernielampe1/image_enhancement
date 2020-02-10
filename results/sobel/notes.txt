@@ -1,0 +1,3 @@
+I = imsmooth(I, 'Average', [5, 5]);
+I = mySobel(I, 25);
+
